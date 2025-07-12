@@ -42,3 +42,12 @@ docker run --name container-name -p port:port -v path-to-project:/volume-folder 
 for example: 
 
 docker run --name basic-container-volume -p 3000:3000 -v /Users/apple/anasch/learnings/tutotials-learning/docker-learning:/app basic-app-2
+
+
+11. Compose file
+
+It is used to put multiple command together in one file and then execute this compose file. It is mostly used in large projects.
+
+Command:
+
+docker compose up
